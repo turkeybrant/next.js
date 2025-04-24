@@ -436,6 +436,7 @@ fn node_file_trace<B: Backend + 'static>(
                     ModuleOptionsContext {
                         ecmascript: EcmascriptOptionsContext {
                             enable_types: true,
+                            ignore_dynamic_requests: true,
                             ..Default::default()
                         },
                         css: CssOptionsContext {
